@@ -1,0 +1,32 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "description": "Este es un conversor de kilogramos a libras y de libras a kilogramos para el proyecto de fundamentos de javascript de platzi",
+  "main": "lib/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d lib",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidreim/conversor-kg-lb.git"
+  },
+  "keywords": [
+    "conversor",
+    "kilos",
+    "kg",
+    "lb",
+    "libra",
+    "platzi",
+    "fundamentos",
+    "javascript"
+  ],
+  "author": "Mateo Gomez <mateogomezmolina@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
