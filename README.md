@@ -5,7 +5,7 @@ Este es un conversor de kilogramos a libras y de libras a kilogramos para el [cu
 ## install
 
 ```
-npm install platzom
+npm i @nidreim/conversor-kg-lb
 ```
 ## Uso
 
